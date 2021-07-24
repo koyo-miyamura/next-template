@@ -26,7 +26,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       </nav>
     </header>
     <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
-    {children}
+      {children}
     </main>
     <footer className="flex items-center justify-center w-full h-24 border-t">
       Footer
